@@ -23,7 +23,24 @@ def f1():
 f1()
 import math
 print(math.sqrt(16))
-from random import * 
+from random import *
 for i in range (10):
     print(randint(0,9),randint(0,9),randint(0,9),randint(0,9),randint(0,9),sep="")
-print("Thank You Earth!!")    
+print("Thank You Earth!!")  
+import keyword
+print(keyword.kwlist)  
+print(id(a))
+d = 1111
+print(d)
+d = 0B1111
+print(d)
+d = 0b1111
+print(d)
+d = -0B1111
+print(d)
+d = 0o777
+print(d)
+d = 0O777
+print(d)
+d = 0XFace
+print(d)
